@@ -1,0 +1,30 @@
+name: teste_flutter
+description: "Sistema de agendamento de salas coworking."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.3
+  sqflite_common: ^2.5.11
+  sqflite_common_ffi: ^2.4.2
+  sqlite3_flutter_libs: ^0.6.0+eol
+  path: ^1.9.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sql/schema.sql
